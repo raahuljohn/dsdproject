@@ -55,7 +55,7 @@ public class damsimplementation extends UnicastRemoteObject implements inter{
 			}
 			getAppointmentSchedule(patientID);
 			output = "Appointment swapped from "+oldAppointmentID+" to "+newAppointmentID;
-
+			System.out.println("");
 
 
 		}
